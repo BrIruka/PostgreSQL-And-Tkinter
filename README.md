@@ -8,9 +8,7 @@ PostgreSQL And Tkinter (Login or Register profile)
 
 3. В писати данні в код в функцію get_connection:
 
- :
-
-  def get_connection():
+  d
  
      conn = psycopg2.connect(
      
@@ -29,4 +27,3 @@ PostgreSQL And Tkinter (Login or Register profile)
      )
     
      return conn
-:
