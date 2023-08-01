@@ -8,7 +8,6 @@ PostgreSQL And Tkinter (Login or Register profile)
 
 3. В писати данні в код в функцію get_connection:
 def get_connection():
-    # Повертає з'єднання з базою даних
     conn = psycopg2.connect(
         database="your_database",
         user="your_username",
@@ -18,3 +17,5 @@ def get_connection():
         sslmode='disable'
     )
     return conn
+
+#asd
