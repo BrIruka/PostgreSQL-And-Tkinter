@@ -30,6 +30,6 @@ PostgreSQL And Tkinter (Login or Register profile)
 
 4. Встановити теки:
    
-     pip install psycopg2
+        pip install psycopg2
    
-     pip install tkinter
+        pip install tkinter
