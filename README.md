@@ -20,7 +20,7 @@ PostgreSQL And Tkinter (Login or Register profile)
         
          host="your_addres",
          
-         port="defoult_5432",
+         port="default_5432",
          
          sslmode='disable'
         
