@@ -33,3 +33,4 @@ PostgreSQL And Tkinter (Login or Register profile)
         pip install psycopg2
    
         pip install tkinter
+5. Запустити login.py
