@@ -7,24 +7,26 @@ PostgreSQL And Tkinter (Login or Register profile)
  (Також якщо будуть проблеми можете подивитись варіант як їх вирішував ChatGPT - https://chat.openai.com/share/d69f44ff-be4b-40f6-9107-adc52f356454)
 
 3. В писати данні в код в функцію get_connection:
-   
-def get_connection():
 
-    conn = psycopg2.connect(
-    
-        database="your_database",
-        
-        user="your_username",
-        
-        password="your_password",
-        
-        host="your_addres",
-        
-        port="defoult_5432",
-        
-        sslmode='disable'
-        
-    )
-    
-    return conn
+ :
 
+  def get_connection():
+ 
+     conn = psycopg2.connect(
+     
+         database="your_database",
+         
+         user="your_username",
+         
+         password="your_password",
+        
+         host="your_addres",
+         
+         port="defoult_5432",
+         
+         sslmode='disable'
+        
+     )
+    
+     return conn
+:
