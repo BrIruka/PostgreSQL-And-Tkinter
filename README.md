@@ -29,5 +29,7 @@ PostgreSQL And Tkinter (Login or Register profile)
      return conn
 
 4. Встановити теки:
+   
      pip install psycopg2
+   
      pip install tkinter
